@@ -1,566 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services Detail Page</title>
-    <script src="tw.js"></script>
-  </head>
-  <body class="font-sans text-gray-800">
-    <!-- Navbar -->
-    <header class="fixed top-0 left-0 w-full bg-white shadow z-50">
-      <div
-        class="container mx-auto flex justify-between items-center py-4 px-6"
-      >
-        <h1 class="text-2xl font-bold text-red-500">Oliver.</h1>
-        <nav class="hidden md:flex space-x-6 text-gray-700 font-medium">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services Detail Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans text-gray-800">
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-white shadow z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-red-500">Oliver.</h1>
+      <nav class="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <a href="#" class="hover:text-red-500">Home</a>
+        <a href="#" class="hover:text-red-500">Services</a>
+        <a href="#" class="hover:text-red-500">About</a>
+        <a href="#" class="hover:text-red-500">Projects</a>
+        <a href="#" class="hover:text-red-500">Blog</a>
+        <a href="#" class="hover:text-red-500">Testimonials</a>
+      </nav>
+      <button class="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600">
+        Contact Me
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-24 mx-auto px-6 text-center bg-gray-100">
+    <h2 class="text-4xl md:text-5xl font-bold mt-2">
+      Services <span class="text-red-500">Page</span>
+    </h2>
+    <p class="mt-2 text-gray-600">
+      Home / <span class="text-red-500">Services</span>
+    </p>
+  </section>
+
+  <!-- Brandstrad -->
+  <div class="w-full py-4 px-6 bg-black text-white text-lg font-bold">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1>Website Design</h1>
+      <div>➕</div>
+      <h1>Wireframe</h1>
+      <div>➕</div>
+      <h1>Dashboard</h1>
+      <div>➕</div>
+      <h1>User Research</h1>
+    </div>
+  </div>
+
+  <section class="max-w-6xl mx-auto px-4 lg:px-8 py-12">
+    <!-- Intro Section -->
+    <div class="mb-12">
+      <img src="./Images/high-angle-man-designing-websites_23-2149930940.jpg" alt="App Design"
+        class="rounded-lg w-full mb-6 h-100 object-cover" />
+
+      <!-- About Application Design Services -->
+
+      <section class="max-w-6xl mx-auto">
+        <div>
+          <h2 class="text-2xl font-bold mb-2">
+            About Application Design Services
+          </h2>
+          <div class="flex items-start space-x-4 mb-2">
+            <div class="bg-black text-white rounded-full flex items-center justify-center text-sm font-bold p-2 px-4">
+              L
+            </div>
+            <p class="text-sm text-gray-600">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in
+            </p>
+          </div>
+          <p class="text-sm text-gray-600">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+        </div>
+
+        <!-- Services Included Section -->
+        <div class="mt-8">
+          <h3 class="text-xl font-semibold mb-2">Services Include:</h3>
+          <p class="text-sm text-gray-600 mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et. Ut enim ad minima veniam,
+            quis nostrum exercitationem ullam corporis suscipit laboriosam,
+            nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum
+          </p>
+
+          <!-- Service List -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-6 text-sm">
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Lorem ipsum dolor</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Sed ut perspiciatis</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Vitae dicta sunt explicabo</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Beatae vitae dicta sunt</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Sed ut perspiciatis</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Explicabo Nemo enim</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Veritatis et quasi architecto</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <span class="text-red-500 text-lg">🔴</span>
+              <span>Explicabo Nemo enim</span>
+            </div>
+          </div>
+
+          <!-- Images Section -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <img src="./Images/high-angle-man-designing-websites_23-2149930940.jpg" alt="Design preview 1"
+              class="rounded-lg shadow-md" />
+            <img src="./Images/high-angle-man-designing-websites_23-2149930940.jpg" alt="Design preview 2"
+              class="rounded-lg shadow-md" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Industries Grid -->
+    <div class="mx-auto">
+      <h2 class="text-2xl font-bold mb-2">
+        Top 8 Industries I Cover in App Design
+      </h2>
+      <p class="text-sm text-gray-600 mb-6">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et Ut enim ad minima veniam, quis
+        nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+        aliquid ex ea commodi consequatur? Quis autem vel eum iure
+        reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+        consequatur, vel illum qui dolorem eum
+      </p>
+
+      <!-- Industry Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Card Template -->
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/hospital-room.png" class="w-8 h-8" alt="Healthcare" />
+          </div>
+          <h3 class="font-semibold">Healthcare</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/shopping-cart.png" class="w-8 h-8" alt="E-Commerce" />
+          </div>
+          <h3 class="font-semibold">E-Commerce</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/home.png" class="w-8 h-8" alt="Real Estate" />
+          </div>
+          <h3 class="font-semibold">Real Estate</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/mortarboard.png" class="w-8 h-8" alt="Education" />
+          </div>
+          <h3 class="font-semibold">Education</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/bank.png" class="w-8 h-8" alt="Finance" />
+          </div>
+          <h3 class="font-semibold">Finance</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/dumbbell.png" class="w-8 h-8" alt="Fitness" />
+          </div>
+          <h3 class="font-semibold">Fitness</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/basketball.png" class="w-8 h-8" alt="Sports" />
+          </div>
+          <h3 class="font-semibold">Sports</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50">
+          <div class="mb-4">
+            <img src="https://img.icons8.com/ios-filled/50/000000/hotel.png" class="w-8 h-8" alt="Hospitality" />
+          </div>
+          <h3 class="font-semibold">Hospitality</h3>
+          <p class="text-sm text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+        </div>
+      </div>
+
+      <!-- Services Benefits Section -->
+      <div class="mt-10">
+        <h3 class="text-xl font-bold mb-2">Services Benefits:</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et Ut enim ad minima veniam,
+          quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+          ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
+          reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+          consequatur, vel illum qui dolorem eum
+        </p>
+
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="text-red-600 mr-2">🔴</span>
+            <span class="text-sm text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-red-600 mr-2">🔴</span>
+            <span class="text-sm text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-red-600 mr-2">🔴</span>
+            <span class="text-sm text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brandstrad -->
+  <div class="w-full py-4 px-6 bg-black text-white text-lg font-bold">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1>Website Design</h1>
+      <div>➕</div>
+      <h1>Wireframe</h1>
+      <div>➕</div>
+      <h1>Dashboard</h1>
+      <div>➕</div>
+      <h1>User Research</h1>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section class="bg-gray-100 py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center">
+        <h3 class="text-sm text-gray-500">
+          <span class="text-red-500"> — </span> Contact Me
+        </h3>
+        <h2 class="text-3xl font-bold mb-12">
+          Let’s Talk for
+          <span class="text-red-500 italic font-normal">Your Next Projects</span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <!-- Contact Form -->
+        <form class="space-y-4">
+          <input type="text" placeholder="Your Name *" class="w-full border p-3 rounded-lg" />
+          <input type="email" placeholder="Email *" class="w-full border p-3 rounded-lg" />
+          <input type="text" placeholder="Phone *" class="w-full border p-3 rounded-lg" />
+          <select class="w-full border p-3 rounded-lg">
+            <option>I’m Interested in *</option>
+            <option>UI/UX</option>
+            <option>Web Design</option>
+            <option>App Design</option>
+          </select>
+          <select class="w-full border p-3 rounded-lg">
+            <option>Budget Range (USD) *</option>
+            <option>$500 - $1,000</option>
+            <option>$1,000 - $5,000</option>
+            <option>$5,000+</option>
+          </select>
+          <select class="w-full border p-3 rounded-lg">
+            <option>Country *</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Nigeria</option>
+          </select>
+          <textarea placeholder="Your Message *" class="w-full border p-3 rounded-lg h-32"></textarea>
+          <button class="bg-red-500 text-white px-6 py-3 rounded-full hover:bg-black transition">
+            Send Message
+          </button>
+        </form>
+
+        <!-- Contact Info -->
+        <div>
+          <div class="bg-black text-white p-8 rounded-t-lg">
+            <h3 class="text-lg font-bold mb-4">Address</h3>
+            <p class="mb-6">2484 Koyal Ln. Mesa, New Jersey 45463</p>
+
+            <h3 class="text-lg font-bold mb-4">Contact</h3>
+            <p>Phone: +0123-456-789</p>
+            <p>Email: example@gmail.com</p>
+
+            <h3 class="text-lg font-bold mt-6 mb-4">Time</h3>
+            <p>Monday – Friday: 10:00 – 20:00</p>
+            <p>Saturday – Sunday: 11:00 – 18:00</p>
+          </div>
+
+          <div class="bg-red-500 p-8 rounded-b-lg">
+            <h3 class="text-lg font-bold mb-4 text-white">Stay Connected</h3>
+            <div class="flex gap-4">
+              <a href="#" class="bg-white p-3 rounded-full">📘</a>
+              <a href="#" class="bg-white p-3 rounded-full">✖</a>
+              <a href="#" class="bg-white p-3 rounded-full">📍</a>
+              <a href="#" class="bg-white p-3 rounded-full">📷</a>
+              <a href="#" class="bg-white p-3 rounded-full">▶</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brandstrad -->
+  <div class="w-full py-4 px-6 bg-black text-white text-lg font-bold">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1>Website Design</h1>
+      <div>➕</div>
+      <h1>Wireframe</h1>
+      <div>➕</div>
+      <h1>Dashboard</h1>
+      <div>➕</div>
+      <h1>User Research</h1>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-10 px-6 max-w-6xl mx-auto">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-3xl md:text-4xl font-bold">
+        Let's
+        <span class="text-red-500 font-normal italic">Connect</span> there
+      </h2>
+
+      <!-- button -->
+      <a href="#" class="bg-white flex items-center justify-center">
+        <div class="flex gap-5 bg-black justify-center py-1 px-1 rounded-full">
+          <button class="bg-red-500 text-white rounded-full gap-2 hover:bg-black transition py-3 px-6">
+            View All Blogs
+          </button>
+          <div class="rounded-full bg-white text-black px-5 py-2">→</div>
+        </div>
+      </a>
+    </div>
+
+    <hr />
+
+    <div class="grid md:grid-cols-4 gap-8 mt-8">
+      <!-- Brand -->
+      <div>
+        <h4 class="text-xl mb-2 text-red-600 font-bold">Oliver.</h4>
+        <p class="text-gray-600 text-sm mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt.
+        </p>
+        <div class="flex gap-3 text-red-500 text-xl">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-behance"></i>
+          <i class="fab fa-dribbble"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <h5 class="font-bold text-red-600 mb-3">Navigation</h5>
+        <ul class="space-y-2 text-sm text-gray-600 flex flex-col">
           <a href="#" class="hover:text-red-500">Home</a>
           <a href="#" class="hover:text-red-500">Services</a>
           <a href="#" class="hover:text-red-500">About</a>
           <a href="#" class="hover:text-red-500">Projects</a>
           <a href="#" class="hover:text-red-500">Blog</a>
           <a href="#" class="hover:text-red-500">Testimonials</a>
-        </nav>
-        <button
-          class="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600"
-        >
-          Contact Me
-        </button>
+        </ul>
       </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="pt-32 pb-24 mx-auto px-6 text-center bg-gray-100">
-      <h2 class="text-4xl md:text-5xl font-bold mt-2">
-        Services <span class="text-red-500">Page</span>
-      </h2>
-      <p class="mt-2 text-gray-600">
-        Home / <span class="text-red-500">Services</span>
+      <!-- Contact -->
+      <div>
+        <h5 class="font-bold mb-3 text-red-600">Contact</h5>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li>
+            <a href="" class="hover:text-red-500"> +0123-456-789 </a>
+          </li>
+          <li>
+            <a href="" class="hover:text-red-500"> www.example.com </a>
+          </li>
+          <li>
+            <a href="" class="hover:text-red-500"> example@gmail.com </a>
+          </li>
+          <li>
+            <a href="" class="hover:text-red-500">
+              <address>2464 Royal Ln. Mesa, New Jersey 45463</address>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div>
+        <h5 class="font-bold text-red-600 mb-3">
+          Get the latest information
+        </h5>
+        <div class="flex items-center border rounded-full overflow-hidden bg-gray-100">
+          <input type="email" placeholder="Email address" class="w-full px-3 py-2 outline-none text-sm bg-gray-100" />
+          <button class="bg-black hover:bg-red-600 text-red-500 p-2">
+            ➝
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t mt-10 pt-6 text-center text-sm text-gray-500">
+      <p>
+        Copyright © 2025 <span class="text-red-500">Olivia.</span> All Rights
+        Reserved.
       </p>
-    </section>
-
-    <!-- Brandstrad -->
-    <div class="w-full py-4 px-6 bg-black text-white text-lg font-bold">
-      <div class="max-w-6xl mx-auto flex justify-between items-center">
-        <h1>Website Design</h1>
-        <div>➕</div>
-        <h1>Wireframe</h1>
-        <div>➕</div>
-        <h1>Dashboard</h1>
-        <div>➕</div>
-        <h1>User Research</h1>
+      <div class="flex justify-center gap-4 mt-2">
+        <a href="#">User Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
       </div>
     </div>
+  </footer>
+</body>
 
-    <section class="max-w-6xl mx-auto px-4 lg:px-8 py-12">
-      <!-- Intro Section -->
-      <div class="mb-12">
-        <img
-          src="./Images/high-angle-man-designing-websites_23-2149930940.jpg"
-          alt="App Design"
-          class="rounded-lg w-full mb-6 h-100 object-cover"
-        />
-
-        <!-- About Application Design Services -->
-
-        <section class="max-w-6xl mx-auto">
-          <div>
-            <h2 class="text-2xl font-bold mb-2">
-              About Application Design Services
-            </h2>
-            <div class="flex items-start space-x-4 mb-2">
-              <div
-                class="bg-black text-white rounded-full flex items-center justify-center text-sm font-bold p-2 px-4"
-              >
-                L
-              </div>
-              <p class="text-sm text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in
-              </p>
-            </div>
-            <p class="text-sm text-gray-600">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt.
-            </p>
-          </div>
-
-          <!-- Services Included Section -->
-          <div class="mt-8">
-            <h3 class="text-xl font-semibold mb-2">Services Include:</h3>
-            <p class="text-sm text-gray-600 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et. Ut enim ad minima veniam,
-              quis nostrum exercitationem ullam corporis suscipit laboriosam,
-              nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-              reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-              consequatur, vel illum qui dolorem eum
-            </p>
-
-            <!-- Service List -->
-            <div
-              class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-6 text-sm"
-            >
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Lorem ipsum dolor</span>
-              </div>
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Sed ut perspiciatis</span>
-              </div>
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Vitae dicta sunt explicabo</span>
-              </div>
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Beatae vitae dicta sunt</span>
-              </div>
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Sed ut perspiciatis</span>
-              </div>
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Explicabo Nemo enim</span>
-              </div>
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Veritatis et quasi architecto</span>
-              </div>
-              <div class="flex items-start space-x-2">
-                <span class="text-red-500 text-lg">🔴</span>
-                <span>Explicabo Nemo enim</span>
-              </div>
-            </div>
-
-            <!-- Images Section -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <img
-                src="./Images/high-angle-man-designing-websites_23-2149930940.jpg"
-                alt="Design preview 1"
-                class="rounded-lg shadow-md"
-              />
-              <img
-                src="./Images/high-angle-man-designing-websites_23-2149930940.jpg"
-                alt="Design preview 2"
-                class="rounded-lg shadow-md"
-              />
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <!-- Industries Grid -->
-      <div class="mx-auto">
-        <h2 class="text-2xl font-bold mb-2">
-          Top 8 Industries I Cover in App Design
-        </h2>
-        <p class="text-sm text-gray-600 mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et Ut enim ad minima veniam, quis
-          nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-          aliquid ex ea commodi consequatur? Quis autem vel eum iure
-          reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-          consequatur, vel illum qui dolorem eum
-        </p>
-
-        <!-- Industry Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <!-- Card Template -->
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/hospital-room.png"
-                class="w-8 h-8"
-                alt="Healthcare"
-              />
-            </div>
-            <h3 class="font-semibold">Healthcare</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/shopping-cart.png"
-                class="w-8 h-8"
-                alt="E-Commerce"
-              />
-            </div>
-            <h3 class="font-semibold">E-Commerce</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/home.png"
-                class="w-8 h-8"
-                alt="Real Estate"
-              />
-            </div>
-            <h3 class="font-semibold">Real Estate</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/mortarboard.png"
-                class="w-8 h-8"
-                alt="Education"
-              />
-            </div>
-            <h3 class="font-semibold">Education</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/bank.png"
-                class="w-8 h-8"
-                alt="Finance"
-              />
-            </div>
-            <h3 class="font-semibold">Finance</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/dumbbell.png"
-                class="w-8 h-8"
-                alt="Fitness"
-              />
-            </div>
-            <h3 class="font-semibold">Fitness</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/basketball.png"
-                class="w-8 h-8"
-                alt="Sports"
-              />
-            </div>
-            <h3 class="font-semibold">Sports</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div
-            class="flex flex-col items-center text-center p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition bg-gray-50"
-          >
-            <div class="mb-4">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/hotel.png"
-                class="w-8 h-8"
-                alt="Hospitality"
-              />
-            </div>
-            <h3 class="font-semibold">Hospitality</h3>
-            <p class="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-        </div>
-
-        <!-- Services Benefits Section -->
-        <div class="mt-10">
-          <h3 class="text-xl font-bold mb-2">Services Benefits:</h3>
-          <p class="text-sm text-gray-600 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et Ut enim ad minima veniam,
-            quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
-            ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum
-          </p>
-
-          <ul class="space-y-2">
-            <li class="flex items-start">
-              <span class="text-red-600 mr-2">🔴</span>
-              <span class="text-sm text-gray-700"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="text-red-600 mr-2">🔴</span>
-              <span class="text-sm text-gray-700"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="text-red-600 mr-2">🔴</span>
-              <span class="text-sm text-gray-700"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et.</span
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Brandstrad -->
-    <div class="w-full py-4 px-6 bg-black text-white text-lg font-bold">
-      <div class="max-w-6xl mx-auto flex justify-between items-center">
-        <h1>Website Design</h1>
-        <div>➕</div>
-        <h1>Wireframe</h1>
-        <div>➕</div>
-        <h1>Dashboard</h1>
-        <div>➕</div>
-        <h1>User Research</h1>
-      </div>
-    </div>
-
-    <!-- Contact Section -->
-    <section class="bg-gray-100 py-16 px-6">
-      <div class="max-w-6xl mx-auto">
-        <div class="text-center">
-          <h3 class="text-sm text-gray-500">
-            <span class="text-red-500"> — </span> Contact Me
-          </h3>
-          <h2 class="text-3xl font-bold mb-12">
-            Let’s Talk for
-            <span class="text-red-500 italic font-normal"
-              >Your Next Projects</span
-            >
-          </h2>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-12">
-          <!-- Contact Form -->
-          <form class="space-y-4">
-            <input
-              type="text"
-              placeholder="Your Name *"
-              class="w-full border p-3 rounded-lg"
-            />
-            <input
-              type="email"
-              placeholder="Email *"
-              class="w-full border p-3 rounded-lg"
-            />
-            <input
-              type="text"
-              placeholder="Phone *"
-              class="w-full border p-3 rounded-lg"
-            />
-            <select class="w-full border p-3 rounded-lg">
-              <option>I’m Interested in *</option>
-              <option>UI/UX</option>
-              <option>Web Design</option>
-              <option>App Design</option>
-            </select>
-            <select class="w-full border p-3 rounded-lg">
-              <option>Budget Range (USD) *</option>
-              <option>$500 - $1,000</option>
-              <option>$1,000 - $5,000</option>
-              <option>$5,000+</option>
-            </select>
-            <select class="w-full border p-3 rounded-lg">
-              <option>Country *</option>
-              <option>USA</option>
-              <option>UK</option>
-              <option>Nigeria</option>
-            </select>
-            <textarea
-              placeholder="Your Message *"
-              class="w-full border p-3 rounded-lg h-32"
-            ></textarea>
-            <button
-              class="bg-red-500 text-white px-6 py-3 rounded-full hover:bg-black transition"
-            >
-              Send Message
-            </button>
-          </form>
-
-          <!-- Contact Info -->
-          <div>
-            <div class="bg-black text-white p-8 rounded-t-lg">
-              <h3 class="text-lg font-bold mb-4">Address</h3>
-              <p class="mb-6">2484 Koyal Ln. Mesa, New Jersey 45463</p>
-
-              <h3 class="text-lg font-bold mb-4">Contact</h3>
-              <p>Phone: +0123-456-789</p>
-              <p>Email: example@gmail.com</p>
-
-              <h3 class="text-lg font-bold mt-6 mb-4">Time</h3>
-              <p>Monday – Friday: 10:00 – 20:00</p>
-              <p>Saturday – Sunday: 11:00 – 18:00</p>
-            </div>
-
-            <div class="bg-red-500 p-8 rounded-b-lg">
-              <h3 class="text-lg font-bold mb-4 text-white">Stay Connected</h3>
-              <div class="flex gap-4">
-                <a href="#" class="bg-white p-3 rounded-full">📘</a>
-                <a href="#" class="bg-white p-3 rounded-full">✖</a>
-                <a href="#" class="bg-white p-3 rounded-full">📍</a>
-                <a href="#" class="bg-white p-3 rounded-full">📷</a>
-                <a href="#" class="bg-white p-3 rounded-full">▶</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Brandstrad -->
-    <div class="w-full py-4 px-6 bg-black text-white text-lg font-bold">
-      <div class="max-w-6xl mx-auto flex justify-between items-center">
-        <h1>Website Design</h1>
-        <div>➕</div>
-        <h1>Wireframe</h1>
-        <div>➕</div>
-        <h1>Dashboard</h1>
-        <div>➕</div>
-        <h1>User Research</h1>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-white border-t py-10 px-6 max-w-6xl mx-auto">
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-3xl md:text-4xl font-bold">
-          Let's
-          <span class="text-red-500 font-normal italic">Connect</span> there
-        </h2>
-
-        <!-- button -->
-        <a href="#" class="bg-white flex items-center justify-center">
-          <div
-            class="flex gap-5 bg-black justify-center py-1 px-1 rounded-full"
-          >
-            <button
-              class="bg-red-500 text-white rounded-full gap-2 hover:bg-black transition py-3 px-6"
-            >
-              View All Blogs
-            </button>
-            <div class="rounded-full bg-white text-black px-5 py-2">→</div>
-          </div>
-        </a>
-      </div>
-
-      <hr />
-
-      <div class="grid md:grid-cols-4 gap-8 mt-8">
-        <!-- Brand -->
-        <div>
-          <h4 class="text-xl mb-2 text-red-600 font-bold">Oliver.</h4>
-          <p class="text-gray-600 text-sm mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
-          </p>
-          <div class="flex gap-3 text-red-500 text-xl">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-behance"></i>
-            <i class="fab fa-dribbble"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-          </div>
-        </div>
-
-        <!-- Navigation -->
-        <div>
-          <h5 class="font-bold text-red-600 mb-3">Navigation</h5>
-          <ul class="space-y-2 text-sm text-gray-600 flex flex-col">
-            <a href="#" class="hover:text-red-500">Home</a>
-            <a href="#" class="hover:text-red-500">Services</a>
-            <a href="#" class="hover:text-red-500">About</a>
-            <a href="#" class="hover:text-red-500">Projects</a>
-            <a href="#" class="hover:text-red-500">Blog</a>
-            <a href="#" class="hover:text-red-500">Testimonials</a>
-          </ul>
-        </div>
-
-        <!-- Contact -->
-        <div>
-          <h5 class="font-bold mb-3 text-red-600">Contact</h5>
-          <ul class="space-y-2 text-sm text-gray-600">
-            <li>
-              <a href="" class="hover:text-red-500"> +0123-456-789 </a>
-            </li>
-            <li>
-              <a href="" class="hover:text-red-500"> www.example.com </a>
-            </li>
-            <li>
-              <a href="" class="hover:text-red-500"> example@gmail.com </a>
-            </li>
-            <li>
-              <a href="" class="hover:text-red-500">
-                <address>2464 Royal Ln. Mesa, New Jersey 45463</address>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Newsletter -->
-        <div>
-          <h5 class="font-bold text-red-600 mb-3">
-            Get the latest information
-          </h5>
-          <div
-            class="flex items-center border rounded-full overflow-hidden bg-gray-100"
-          >
-            <input
-              type="email"
-              placeholder="Email address"
-              class="w-full px-3 py-2 outline-none text-sm bg-gray-100"
-            />
-            <button class="bg-black hover:bg-red-600 text-red-500 p-2">
-              ➝
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="border-t mt-10 pt-6 text-center text-sm text-gray-500">
-        <p>
-          Copyright © 2025 <span class="text-red-500">Olivia.</span> All Rights
-          Reserved.
-        </p>
-        <div class="flex justify-center gap-4 mt-2">
-          <a href="#">User Terms & Conditions</a>
-          <a href="#">Privacy Policy</a>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
